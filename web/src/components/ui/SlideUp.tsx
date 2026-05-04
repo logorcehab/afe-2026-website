@@ -14,7 +14,7 @@ export function SlideUp({ children, className = "", delay = 0, as = "div" }: Sli
   const MotionTag = motion[as] as any;
   return (
     <MotionTag
-      className={className}
+      className={`relative ${className}`}
       initial={{ opacity: 0, y: 32 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.15 }}

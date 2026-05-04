@@ -16,6 +16,7 @@ export function HeroSection() {
           alt="AFE 2026 Background"
           fill
           priority
+          sizes="100vw"
           className="object-cover opacity-70"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#000005] via-[#000005]/40 to-transparent" />

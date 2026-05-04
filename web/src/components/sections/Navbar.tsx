@@ -18,6 +18,7 @@ export function Navbar() {
           alt="Africa Financial Week" 
           width={180}
           height={40}
+          style={{ height: 'auto' }}
           className="h-[40px] w-auto object-contain" 
         />
 

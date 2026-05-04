@@ -25,6 +25,7 @@ function PhotoCard({ src, idx }: { src: string; idx: number }) {
         src={src}
         alt={`Event photo ${idx + 1}`}
         fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 360px"
         className="object-cover"
       />
     </div>

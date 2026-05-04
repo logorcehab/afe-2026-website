@@ -31,3 +31,6 @@ Thumbs.db
 .gemini/
 .taskmaster/
 EOF
+
+assets/
+base/

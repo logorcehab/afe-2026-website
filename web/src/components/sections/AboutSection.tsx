@@ -39,6 +39,7 @@ export function AboutSection() {
               src={imgAbout} 
               alt="Africa Financial Week" 
               fill
+              sizes="(max-width: 1024px) 100vw, 545px"
               className="object-cover rounded-lg" 
             />
           </div>
